@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+li {
+    float: right;
+    margin-top: -15px;
+    margin-right: 7px;
+    margin-left: 7px;
+    /*width: 30px;*/
+    text-align: center;
+    display: inline;
+    /*float: left; cuando un elemento flota, entonces no se puede aplicar el inline, se le debe poner el elemento padre, en este caso es el ul*/
+}
+
+table,
+th,
+td {
+    font-size: 150%;
+    border: 3px solid;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    color: white;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+}
+
+/*eyyy mira soy un comentario*/
+html, body {
+    background-color: #FFF8E7;
+    /*font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 14px;
+
+    font-weight: 200;
+    la siguiente línea es lo mismo que las tres anteriores*/
+    font: 200 14px 'Ubuntu Condensed', sans-serif;
+}
+
+h2 {
+    font-size: 300%;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+h3 {
+    color: #F0B000;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 200%;
+    font-weight: 300;
+}
+
+cite {
+    font-weight: 300;
+}
+i{
+    color: #1c386b;
+    font-size: 28px;
+}
+i:hover {
+    color: #000000;
+}
+
+a:any-link {
+    color: black;
+}
+
+a:-webkit-any-link {
+    color: white;
+}
+
+a:-moz-any-link {
+    color: black;
+}
+
+a:hover {
+    color: #F0B000;
+}
+
+img {
+    padding: 10px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px;
+    border-width: 0px;
+    background-color: #F0B000;
+    color: black;
+}
+
+/*si hacemos varias veces el mismo estilo 
+para una etiqueta, va tomar el último, se sobreescribe pues xd
+h3{
+    color : #ffffff
+}
+*/

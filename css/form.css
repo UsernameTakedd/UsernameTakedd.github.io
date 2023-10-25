@@ -1,0 +1,89 @@
+/*formulario comentarios*/
+#contact{
+    background-color: #F0B000;
+    padding-left: 5%;
+}
+#contact h3, #contact h2{
+    color: #000000;
+    text-align: start;
+}
+.itemform{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.itemform label{
+    font-weight: 700;
+}
+
+
+.itemform input, .itemform textarea{
+    border-radius: 5px;
+    border: 1px solid white;
+}
+input[type="submit"]{
+    font-size: 15px;
+    background-color: #000000;
+    color:white;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
+    border: 1px solid #1c386b;
+}
+
+@media(min-width: 1367px){
+    .itemform{
+        font-size: 50px;
+        display: grid;
+        grid-template-columns: 150px 350px;
+        justify-content: center;
+        padding: 5px;
+    }
+}
+
+/*formulario login*/
+
+#loginbtn{
+    font-size: 15px;
+    background-color: #F0B000;
+    color:black;
+    padding: 10px;
+    grid-column: 1/2;
+    justify-self: start;
+    border: 0px;
+}
+
+#loginbtn:hover{
+    color:#F0B000;
+    background-color: #000000;
+}
+
+#login h2 {
+    text-align: start;
+    font-size: 30px;
+}
+
+
+#credenciales {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 20px;
+}
+input[type="password"], #email{
+    width: 300%;
+    font-size: 22px;
+}
+#mensajeL{
+    padding: 100px 10px 100px 45px;
+}
+
+#login form {
+    color:white;
+    padding: 50px 50px 0px 0px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+    align-items: center;
+}
