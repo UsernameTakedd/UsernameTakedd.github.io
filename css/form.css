@@ -46,6 +46,7 @@ input[type="submit"] {
 
 #loginbtn, #signupbtn {
     font-size: 15px;
+    width: 150%;
     background-color: #F0B000;
     color: black;
     padding: 10px;
