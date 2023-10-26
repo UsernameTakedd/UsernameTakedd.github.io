@@ -66,20 +66,6 @@
     color:#000000
 }
 
-#QR{
-    width: 100%;
-    border-left: 55px;
-    margin-top: -13%;
-    position: fixed;
-    visibility: hidden;
-}
-#QR button{
-    width: 70px;
-    margin: 0 47% 0px 47%;
-    font-size: 50px;
-    border-radius: 40px;
-}
-
 #perfilP{
     background-color: #00000000;
     display: flex;
@@ -113,8 +99,17 @@
     color:#1c386b
 }
 
-#QR i:hover{
-    color:#f0b000;
+
+#acuenta{
+    float:right;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    font-size: 18px;
+}
+#acuenta:hover{
+    background-color: #000000;
+    color: #F0B000;
 }
 /*Card portafolio*/
 .portafolio {
@@ -187,4 +182,23 @@
 .card .sep {
     margin: 0px 0px 0px 0px;
     border: 1px solid #F0B000;
+}
+
+/*Código QR*/
+#QR{
+    width: 100%;
+    border-left: 55px;
+    margin-top: -13%;
+    position: fixed;
+    visibility: hidden;
+}
+#QR button{
+    width: 70px;
+    margin: 0 47% 0px 47%;
+    font-size: 50px;
+    border-radius: 40px;
+}
+
+#QR i:hover{
+    color:#f0b000;
 }
