@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Saldo</title>
+    <title>Pago.</title>
     <!--Cabecera no visible-->
     <link href="../css/estilos.css" rel = "stylesheet">
     <link href="../css/IdC.css" rel="stylesheet">
@@ -20,7 +20,7 @@
             <span></span>
             <span></span>
             <span></span>
-            
+
             <ul id = "menu">
                 <li id="pefilLi"><a href="../html/perfil.html" id="perfil"><i class="fa-solid fa-user"></i></a></li>
                 <li><a href="./saldo.html">inicio</a></li>
@@ -38,13 +38,18 @@
                 <img src="../imágenes/TecNM_logo.png" alt="Logo TecNM" height="80" id="ltecnm">
             </div>
             <div class="Cuerpo">
-                <div id="saldo">
-                <h2>Saldo disponible:</h2> <!--se deben usar los títulos en órden, del h1 al h6, por práctica más que nada-->
-                <h2>$200.00</h2>
-            </div>
-                <div id="botones">
-                    <a href="../html/pago.html"><button class="masinfo">Recargar tarjeta.</button></a>
-                </div>
+                <form action="#" id="contact">
+                    <div id="signup">
+                        <h2>Seleccione el monto por favor.</h2>
+                        <div class ="itemform">
+                            <label for="monto">Monto:</label>
+                            <input type="number" id="monto" name="monto" minlength="2" maxlength="100" size="50">
+                        </div>
+                        <div class="itemform">
+                            <input type="submit" name="MP" value="Continuar">
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
         <section id="redes">

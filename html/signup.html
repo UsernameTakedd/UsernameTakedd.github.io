@@ -3,34 +3,15 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Saldo</title>
+    <title>Crear cuenta.</title>
     <!--Cabecera no visible-->
     <link href="../css/estilos.css" rel = "stylesheet">
     <link href="../css/IdC.css" rel="stylesheet">
     <link href="../css/form.css" rel="stylesheet">
-    <link href="../css/menu.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d669110c75.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <nav role="navigation">
-        <div id = "menuToggle">
-            <input type = "checkbox"/>
-            
-            <span></span>
-            <span></span>
-            <span></span>
-            
-            <ul id = "menu">
-                <li id="pefilLi"><a href="../html/perfil.html" id="perfil"><i class="fa-solid fa-user"></i></a></li>
-                <li><a href="./saldo.html">inicio</a></li>
-                <li><a href="../html/cuentasV.html">Transferir</a></li>
-                <li><a href="../html/Historial.html">Movimientos recientes</a></li>
-                <li><a href="../index2.html">Cerrar sesión</a></li>
-            </ul>
-        </div>
-    </nav>
-    
+<body>    
     <article>
         <section>
             <div id="inicio">
@@ -38,13 +19,30 @@
                 <img src="../imágenes/TecNM_logo.png" alt="Logo TecNM" height="80" id="ltecnm">
             </div>
             <div class="Cuerpo">
-                <div id="saldo">
-                <h2>Saldo disponible:</h2> <!--se deben usar los títulos en órden, del h1 al h6, por práctica más que nada-->
-                <h2>$200.00</h2>
-            </div>
-                <div id="botones">
-                    <a href="../html/pago.html"><button class="masinfo">Recargar tarjeta.</button></a>
-                </div>
+                <form action="../index2.html" id="contact">
+                    <div id="signup">
+                        <h2>Ingrese sus datos.</h2>
+                        <div class ="itemform">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" minlength="2" maxlength="240" size="50">
+                        </div>
+                        <div class ="itemform">
+                            <label for="Curp">CURP</label>
+                            <input type="text" id="Curp" name="curp" minlength="2" maxlength="240" size="50">
+                        </div>
+                        <div class ="itemform">
+                            <label for="email">Email</label>
+                            <input type="email" id="nombre" name="nombre" minlength="2" maxlength="240" size="50">
+                        </div>
+                        <div class ="itemform">
+                            <label for="contraseña">Contraseña</label>
+                            <input type="password" id="password" name="contraseña" minlength="2" maxlength="240" size="40">
+                        </div>
+                        <div class="itemform">
+                            <input type="submit" name="subir" value="Registrarse">
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
         <section id="redes">
